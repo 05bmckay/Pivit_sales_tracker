@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8">
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <title>Bryce Example</title>
+    
+        <meta name="description" content="">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href="">
+    
+    </head>
+    
+    <body>
+       
+        <p>Question: How Many Companies/Leads need to be contacted per month to obtain <input id="amount" placeholder="10000"></input> dollars</p>       
+
+        <button onclick="calculate()">Submit</button>
+
+        <div id="calculated" style="display:none">
+            
+            <p>Cold Call</p>
+
+            <p style="margin-left:25px">Answer rate: <input placeholder="30" id="answer_rate"></input>%</p>
+
+            <p style="margin-left:50px">Deal rate: <input placeholder="30" id="deal_rate"></input>%</p>
+
+            <p style="margin-left:50px">Average deal amount: 40,000. Average GP: 40%</p>
+
+            <button onclick="calculate2()">Calculate</button>
+
+            <p style="margin-left:65px" id="complete"></p>
+
+        </div>
+    
+        <script src="js.js" async defer></script>
+    
+    </body>
+
+</html>
